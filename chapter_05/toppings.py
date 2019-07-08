@@ -3,6 +3,8 @@ available_toppings = ['mushrooms', 'olives', 'green peppers',
 
 requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
 
+requested_toppings = []
+
 for requested_topping in requested_toppings:
     if requested_topping in available_toppings:
         print("Adding " + requested_topping + ".")

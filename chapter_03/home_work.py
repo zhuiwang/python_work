@@ -111,4 +111,11 @@ print(wanner_to_go)
 print(sort_place)
 
 
+people_number = len(wanner_to_go)
+print(people_number)
+
+motorcycles = ['unite']
+print(motorcycles[-1])
+
+
 
