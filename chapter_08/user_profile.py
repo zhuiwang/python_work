@@ -11,3 +11,8 @@ user_profile = build_profile('albert', 'einstein',
                              location='princeton',
                              field='physics')
 print(user_profile)
+
+my_profile = build_profile('wang', 'zhui',
+                           location='china',
+                           field='???')
+print(my_profile)
