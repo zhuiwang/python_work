@@ -1,3 +1,4 @@
+#!/usr/local/bin/python3.7
 
 def naive_add(x, y):
     assert len(x.shape) == 2
@@ -9,5 +10,5 @@ def naive_add(x, y):
             x[i, j] += y[i, j]
     return x
 
-i = naive_add(3,5)
+i = naive_add(int(3),int(5))
 print(i)
